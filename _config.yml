@@ -1,5 +1,5 @@
-name: Wangana
-description:  Perfect for powering your GitHub hosted blog.
+name: Thomas Kilbride
+description:  Imagination in progress...
 
 sass:
   sass_dir: assets/css/_sass
@@ -8,16 +8,16 @@ sass:
 # url: http://nadjetey.github.io
 
 owner:
-    name: Nii Adjetey Sowah
-    twitter: #
-    github: #
+    name: Thomas A. Kilbride
+    twitter: kilbride_thomas
+    github: obnauticus
     disqus_shortname: #
 
 ga_id: #
 ga_username: #
 
 permalink: /:year/:month/:title/
-timezone: Africa/Accra
+timezone: America/Indiana/Indianapolis
 
 markdown: redcarpet
 redcarpet:

@@ -8,13 +8,13 @@ permalink:        pretty
 # Setup
 title:            Thomas
 tagline:          'Hardware Guru'
-description:      'A hardware developer that loves to be busy!'
-url:              http://hyde.getpoole.com
+description:      'I'm a hardware engineer that loves to be busy. I'm in to Freelance, open source and any development inbetween'
+url:              http://obnauticus.com
 baseurl:          /
 
 author:
   name:           'Thomas Kilbride'
-  url:            https://twitter.com/mdo
+  url:            https://twitter.com/kilbride_thomas
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/obnauticus

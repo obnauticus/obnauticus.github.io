@@ -1,25 +1,24 @@
-# Diaependencies
-markdown:         redcarpet
-pygments:         true
+name: Wangana
+description:  Perfect for powering your GitHub hosted blog.
 
-# Permalinks
-permalink:        pretty
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
 
-# Setup
-title:            Thomas Kilbride
-tagline:          'The hardware engineer'
-description:      "I am a hardware engineer. I like to hack and tinker because that is how I learn."
-url:              http://hyde.getpoole.com
-baseurl:          /
+# url: http://nadjetey.github.io
 
-author:
-  name:           'Thomas Kilbride'
-  url:            https://twitter.com/kilbride_thomas
+owner:
+    name: Nii Adjetey Sowah
+    twitter: #
+    github: #
+    disqus_shortname: #
 
-paginate:         5
+ga_id: #
+ga_username: #
 
-# Custom vars
-version:          2.1.0
+permalink: /:year/:month/:title/
+timezone: Africa/Accra
 
-github:
-  repo:           https://github.com/obnauticus
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]

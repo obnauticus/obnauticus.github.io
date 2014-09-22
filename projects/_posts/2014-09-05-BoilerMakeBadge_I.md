@@ -7,5 +7,5 @@ comments: true
 tags: projects
 type: project
 summary: A board which uses stepstick motor drivers to control a delta robot.
-source: https://github.com/firepick-delta/firepick-delta/tree/dev/electronics/emc01
+source: https://github.com/obnauticus/BoilerMakeBadge_I
 ---

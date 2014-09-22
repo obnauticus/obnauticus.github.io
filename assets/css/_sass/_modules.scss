@@ -211,7 +211,3 @@ display:block;
 nav select {
   display: none;
 }
-@media (max-width: 1000px) {
-  nav ul     { display: none; }
-  nav select { display: inline-block; }
-}

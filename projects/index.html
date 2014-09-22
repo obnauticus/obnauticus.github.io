@@ -1,0 +1,33 @@
+---
+layout: default
+title: Projects
+---
+<div class="col-sm-12">
+	<div class="page-title">
+    {{ page.title }}
+  </div>
+        {% for post in site.posts %}
+		{% if post.categories contains 'project' %} 
+<div class="projects-container">
+	<ul id="projects-list">
+	        <li>
+          <a href="{{ post.url }}" target="_blank">{{ post.title }}</a> &mdash;
+          {{ post.summary }}
+		  {% if post.source %}
+          [<a target="_blank" href="{{ post.source }}">source code</a>]
+		  {% endif %}
+        </li>
+	    </ul>
+		{% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<script>
+    $(".post-li .postlist-detail-indicator").click(function() {
+        var preview = $(this);
+        preview.text(preview.text()=='Expand +'?'Collapse -':'Expand +');
+
+        $(this).closest(".post-li").find(".postlist-detail").toggle("slow", function() {});
+    });
+</script>

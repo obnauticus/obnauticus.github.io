@@ -4,6 +4,7 @@ layout: default
 <div class="col-sm-12">
     <div class="posts">
         {% for post in site.posts %}
+		{% if post.type != "project" %} 
         <div class="post-li">
             <div class="col-sm-8">
                 <ul class="postlist-block">
@@ -25,6 +26,7 @@ layout: default
                 {{post.excerpt}}
             </div>
         </div>
+		{% endif %}
         {% endfor %}
     </div>
 </div>

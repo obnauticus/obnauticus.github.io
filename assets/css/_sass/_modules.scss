@@ -208,3 +208,10 @@ max-height:100%;
 margin:auto;
 display:block;
 }
+nav select {
+  display: none;
+}
+@media (max-width: 960px) {
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
+}

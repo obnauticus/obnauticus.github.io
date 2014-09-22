@@ -35,7 +35,7 @@ Note: Items 3 and 4 can be replaced by buying an "Ultrasonic Generator," however
 <span style="font-size: 180%; font-weight: bold;">Gathering the hard-to-find Materials:</span><br />
 <br />
 <img alt="" border="0" src="assets/images/2inchtrans2.jpg"/>1. Ultrasonic Transducers:<br />
-<ul style="text-align: left;">
+<ul>
 <li>Ultrasonic Transducers are very easy to find online, I got mine from eBay, a couple of 55Watt ones. Make sure the ones you get are designed for cleaner applications.</li>
 </ul>
 <br />

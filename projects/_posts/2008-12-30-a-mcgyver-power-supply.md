@@ -2,7 +2,7 @@
 layout: post
 title:  "McGyver Power Supply"
 projectname: "mcVoltage"
-date:   2008-12-18
+date:   2008-12-30
 comments: true
 tags: projects
 type: project

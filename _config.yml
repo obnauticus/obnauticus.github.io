@@ -1,6 +1,6 @@
 name: Thomas Kilbride
 description:  Imagination in progress...
-
+exclude: [_tmp]
 sass:
   sass_dir: assets/css/_sass
   style: :compressed

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bring back the IM-era!"
+title:  "Bring back the IMera!"
 date:   2014-09-29
 tags: [xmpp,jabber,ejabberd]
 comments: true

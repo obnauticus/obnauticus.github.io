@@ -2,7 +2,7 @@
 layout: post
 title:  "BoilerMake Hackathon Atendee Badge"
 projectname: "BoilerMakeBadge I"
-date:   2014-10-01
+date:   2014-09-01
 comments: true
 tags: projects
 type: project

@@ -91,16 +91,6 @@ body {
       outline: none;
     }
   }
-  .mobile-social a {
-    color: #aaa;
-    padding: 0 10px;
-    font-size: 18px;
-    &:hover {
-      color: #fff;
-      text-decoration: none;
-    }
-  }
-
   // Nav as dropdown
   #nav {
     display: none;
@@ -131,9 +121,13 @@ body {
     }
   }
 
-  // Hide desktop top-nav on mobile
   .top-nav {
-    display: none;
+    text-align: center;
+    padding: 8px 5px;
+    line-height: 30px;
+    span {
+      float: none !important;
+    }
   }
 
   .content {

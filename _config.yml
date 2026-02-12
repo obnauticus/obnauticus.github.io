@@ -5,7 +5,7 @@ sass:
   sass_dir: assets/css/_sass
   style: :compressed
 
-# url: http://nadjetey.github.io
+url: https://obnauticus.com
 
 owner:
     name: Thomas A. Kilbride

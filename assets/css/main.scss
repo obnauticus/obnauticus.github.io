@@ -7,12 +7,12 @@ $lnk-color: #afafaf;
 $lnk-highlight-color: #333;
 
 /* IMPORT CSS FILES */
+// bootstrap (first, so custom styles can override)
+@import "bootstrap.min";
+// fontawesome icons
+@import "font-awesome.min";
 // base css
 @import "site";
 @import "modules";
 // syntax highlighting
 @import "syntax";
-// bootstrap
-@import "bootstrap.min";
-// fontawesome icons
-@import "font-awesome.min";

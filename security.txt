@@ -2,7 +2,7 @@
 Contact: admin@obnauticus.com
 
 # Our PGP Key
-Encryption: http://obnauticus.com/assets/files/pubkey.asc
+Encryption: https://obnauticus.com/assets/files/pubkey.asc
 
 # Our disclosure policy
 Disclosure: Full

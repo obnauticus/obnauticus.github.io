@@ -19,12 +19,15 @@
 
 .link {
   color: $lnk-color;
-  min-width: 139px;
   &:hover,
   &:focus {
     text-decoration: none;
     color: $lnk-highlight-color;
   }
+}
+
+.top-nav .link {
+  min-width: auto;
 }
 
 .top-nav {
@@ -136,7 +139,7 @@ pre {
 
 .post > .container,
 #wrap > .container {
-  padding: 75px 0 60px;
+  padding: 75px 15px 60px;
 }
 
 .post-comments {
@@ -203,7 +206,6 @@ img.post-title {
   margin: 20px 0 0;
 }
 
-#menu,
 .comments-meta {
   display: none;
 }

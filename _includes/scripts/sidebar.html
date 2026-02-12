@@ -1,8 +1,6 @@
 $(document).ready(function() {
-    $('.menu-btn').click(function() {
-        $('.row-offcanvas').toggleClass('active');
-    });
-    $('.close-btn').click(function() {
-        $('.row-offcanvas').toggleClass('active');
+    $('.mobile-toggle').click(function() {
+        $('#nav').slideToggle(200);
+        $(this).find('i').toggleClass('fa-bars fa-times');
     });
 });

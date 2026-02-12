@@ -60,7 +60,7 @@ body {
 }
 
 .mobile-header {
-  display: none;
+  display: none !important;
 }
 
 @media (max-width: 768px) {
@@ -73,7 +73,7 @@ body {
 
   // Mobile header bar
   .mobile-header {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: space-between;
     background: #333;

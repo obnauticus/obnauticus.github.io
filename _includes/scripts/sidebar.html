@@ -3,4 +3,10 @@ $(document).ready(function() {
         $('#nav').slideToggle(200);
         $(this).find('i').toggleClass('fa-bars fa-times');
     });
+    // Reset nav visibility when resizing to desktop
+    $(window).resize(function() {
+        if ($(window).width() > 768) {
+            $('#nav').css('display', '');
+        }
+    });
 });
